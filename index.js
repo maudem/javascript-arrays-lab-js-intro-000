@@ -29,3 +29,8 @@ var appendKitten = name => {
 var prependKitten = name => {
   return [name, ...kittens]
 }
+
+var removeLastKitten = name => {
+  return kitten.slice((kitten.length)-1)
+}
+
