@@ -16,3 +16,8 @@ var destructivelyRemoveLastKitten = name => {
   kittens.pop((kittens.length)-1)
   return kittens
 }
+
+var destructivelyRemoveFirstKitten = name => {
+  kittens.shift(kittens[0])
+  return kittens
+}
